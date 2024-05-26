@@ -1,32 +1,16 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-int n,count = 0, count_arr = count;
-string s;
+int n;
 cin>>n;
-for (int i =0 ; i < n; i++)
-{
-    // for (int j = 0; j != '/0'; j++)
-    // {
-    //     cin>>arr[j];
-    //     count++;
-    // }
-    // if(count >= 10){
-    //     cout<<arr[i]<<count-2<<arr[count_arr]<<endl;
-    // }
-    // else count<<
-    // count = 0;
-    for (int i = 0; i < n; i++)
-    {
-        cin>>s;
-        int length = s.size();
-        if(length >= 10){
-            cout<<s.at(i)<<(length-2)<<s.at(length)<<endl;
+for( int i = 0; i <= n; i++){
+    string str;
+        getline(cin,str);
+        int length = str.size();
+        if(length > 10){
+            cout<<str[0]<<(length-2)<<str[length-1]<<endl;
         }
-        else cout<<s;
+        else cout<<str<<endl;
     }
-    
-}G
-
 return 0;
 }
