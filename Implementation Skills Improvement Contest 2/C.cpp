@@ -26,3 +26,4 @@ if (sum != 0) {
 }
 return 0;
 }
+// ! O(n) + O(2n + n) = O(log n)

@@ -13,3 +13,4 @@ abs-> absolute value of the given value
    long int -> labs(n)
     long long int -> llabs(n)
   */
+//! O(1)

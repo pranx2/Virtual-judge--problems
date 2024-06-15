@@ -16,3 +16,4 @@ cin>>x1>>y1>>x2>>y2>>num_cow;
 }
 return 0;
 }
+//! O(n * N) = O(n^2)
